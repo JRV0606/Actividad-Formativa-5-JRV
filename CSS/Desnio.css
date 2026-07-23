@@ -1,0 +1,47 @@
+body
+{
+    border: 1px solid Black;
+    background-color: darkgray;
+}
+header
+{
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+    height: 30px;
+}
+
+header nav ul li
+{
+    display: inline-block;
+    margin: auto auto;
+    width: 40px;
+
+}
+header h1
+{
+    font-size: 30px;
+    margin: auto auto;
+    float: left;
+}
+.breadcrumb
+{
+    background-color: gray;
+    border-top: 2px solid black;
+    height: 30px;
+}
+.profile-photo
+{
+    height: 140px;
+    float: left;
+    margin-bottom: 0px;
+}
+#Datos-Personales
+{
+    margin: 70px auto;
+    border: 3px solid ;
+}
+#Experiencia-Laboral
+{
+    margin: -px auto;
+}
