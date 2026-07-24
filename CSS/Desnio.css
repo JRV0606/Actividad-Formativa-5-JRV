@@ -1,47 +1,127 @@
-body
-{
-    border: 1px solid Black;
+body {
     background-color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
 }
-header
-{
+
+header {
     background-color: gray;
     padding: 20px;
     text-align: center;
-    height: 30px;
 }
 
-header nav ul li
-{
-    display: inline-block;
-    margin: auto auto;
-    width: 40px;
-
-}
-header h1
-{
+header h1 {
     font-size: 30px;
-    margin: auto auto;
+    margin: 0;
     float: left;
+    color: white;
 }
-.breadcrumb
-{
-    background-color: gray;
+
+header nav.menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav.menu ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+header nav.menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.breadcrumb {
+    background-color: lightgray;
     border-top: 2px solid black;
-    height: 30px;
+    padding: 10px;
+    text-align: center;
 }
-.profile-photo
-{
-    height: 140px;
+
+.breadcrumb-link {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+main.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: gray;
+    color: white;
+}
+
+main.container section {
+    margin-bottom: 30px;
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+}
+
+main.container section h3 {
+    color: white;
+}
+#video-profesional {
+    margin: auto;
+    width: 60%;
     float: left;
-    margin-bottom: 0px;
 }
-#Datos-Personales
-{
-    margin: 70px auto;
-    border: 3px solid ;
+
+#carta-recomendacion {
+    margin: auto;
+    width: 35%;
+    float: right;
 }
-#Experiencia-Laboral
-{
-    margin: -px auto;
+
+#temas-interes::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.profile-photo {
+    height: 150px;
+    float: left;
+    margin-right: 20px;
+    border: 2px solid white;
+}
+
+#Datos-Personales {
+    clear: both;
+    margin-top: 20px;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+table#tabla-resumen {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table#tabla-resumen th,
+table#tabla-resumen td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: left;
+}
+
+.galeria-item {
+    width: 30%;
+    display: inline-block;
+    margin: 1%;
+    background-color: lightgray;
+    text-align: center;
+    border: 1px solid black;
+    vertical-align: top;
+}
+
+.galeria-item img {
+    width: 100%;
+    height: 180px;
+}
+
+.galeria-item p {
+    margin: 5px;
+    color: black;
 }
